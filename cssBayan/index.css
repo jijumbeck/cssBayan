@@ -10,8 +10,24 @@ main {
     padding: 2em;
 }
 
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+div:hover > details > summary > h2 {
+    color:rgb(108, 29, 255);
+}
+
 img {
     width: 100%;
+
+    border: 2px solid;
+    border-color: rgb(29, 29, 29);
+    border-radius: 20px;
 }
 
 summary {
@@ -20,13 +36,14 @@ summary {
     align-items: center;
 
     padding: 0.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 2em;
 
     cursor: pointer;
 }
 
 summary > img {
     height: 10%;
+    border: 0;
 }
 
 ::-webkit-details-marker {
